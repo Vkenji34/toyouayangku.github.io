@@ -89,8 +89,8 @@ body{
     column-gap: 5px;
 }
 #gallery img {
-    width: 100% !important;
-    height: auto !important;
+    width: 100% ;
+    height: auto ;
     margin-bottom: 5px;
     filter: grayscale(75%);
     transition: filter 1s;
@@ -100,6 +100,9 @@ body{
     filter: none;
     border: white;
     border-width: 1px;
+    transform: scale(1.5);
+    position: relative;
+        z-index: 2;
 }
 
 
