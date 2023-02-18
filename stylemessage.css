@@ -1,0 +1,138 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open sans', sans-serif;
+    background: #000000;
+
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+
+}
+
+.logo img {
+    width: 399px;
+    height: 284px;
+    float: left;
+}
+
+.menu {
+    margin-left: 25%;
+    font-size: 30px;
+    padding: 0;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 130px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #F9F7F7;
+    z-index: 1;
+    border: 1;
+}
+
+nav ul {
+    list-style-type: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: #212121;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+h1 {
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: white;
+    width: 100%;
+    line-height: 40px;
+    text-align: center;
+    margin-left: 0%;
+}
+
+img {
+    position: relative;
+    align-items: center;
+    max-width: 60%;
+    height: auto;
+    display: block;
+    margin-left: 30%;
+    margin-right: auto;
+    padding-bottom: 10%;
+
+
+}
+
+a.tbl-merah {
+    background: #ffffff;
+    color: #000000;
+    cursor: pointer;
+    font-size: 75px;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 15px 20px 15px 20px;
+    margin-left: 45%;
+}
+
+a.tbl-merah:hover {
+    background: #000000;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    text-decoration: none;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 10px 10px 0px;
+
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
